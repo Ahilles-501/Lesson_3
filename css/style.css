@@ -1,0 +1,129 @@
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+/*-***************************************************************************************************************************-}*/
+
+/* -------------------------Первый блок------------------------- */
+
+.main-conainer {
+}
+.content h1{
+	color: darkblue;
+}
+.content > h2{
+	color: red;
+}
+.content > h3{
+	color: blue;
+}
+.paragraph__1{
+	color: rgb(187, 238, 49);
+}
+/* --------------------------Второй блок---------------------------- */
+
+.content__info >h2 {
+	color: rgb(9, 129, 9);
+}
+.paragraph__2 {
+	color: chocolate;
+}
+/* ---------------------------Третий блок---------------------------- */
+
+.content__info-info {
+}
+.content__info-info > h2{
+color: darkcyan;
+}
+.paragraph__3 {
+	color: rgb(139, 45, 11);
+}
+/* ----------------------------Четвертый блок------------------------- */
+
+.content__info-style > h2{
+	color: darkmagenta;
+}
+.salon {
+}
+.paragraph__4 {
+	color: darkred;
+}
+.multimedia {
+}
+/* -----------------------------Пятый блок------------------------------ */
+
+.content__ergo-style > h2{
+	color: gold;
+}
+.paragraph__5 {
+	color: hotpink;
+}
+.paragraph__5 span{
+	color: darkred;
+}
+
+/* -----------------------------Шестой блок---------------------------------- */
+
+.content-itog > h2{
+	color: rgb(87, 11, 158);
+}
+.paragraph__6{
+	color: yellowgreen;
+}
+/* ------------------------------Седьмой блок---------------------------------- */
+
+.block > h3{
+	color: tomato;
+}
+.list li{
+	color: yellow;
+}
+/* ------------------------------Восьмой блок------------------------------------ */
+
+.block-block h3{
+	color: red;
+}
+.paragraph__7{
+	color: rgb(68, 49, 238);
+}
+.block-block ol{
+	color: seagreen;
+}
+.paragraph__8{
+	color: rgb(156, 55, 97);
+}
+
+/* -------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
